@@ -20,7 +20,7 @@ The old WordPress site was hacked (spam pages, cloaking code and a hidden admin 
 ```bash
 npm install
 cp .env.example .env.local   # fill in Neon URL, auth secret, admin email
-npm run db:push              # create tables in Neon
+npm run db:push              # create tables in Neon (or apply drizzle/0000_init.sql)
 npm run db:seed              # load the articles from content/posts
 npm run dev
 ```
